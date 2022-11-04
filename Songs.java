@@ -6,7 +6,7 @@ public Songs(String S)
     this.S =S;
 }
 public void print(){
-    System.out.println("this song: " + this.S);
+    System.out.println("Song: " + this.S);
 }
 
 

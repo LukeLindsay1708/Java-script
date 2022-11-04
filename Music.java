@@ -42,10 +42,30 @@ public class Music
             Artists.print();
         }
 
-        Songs Love_Sick = new Songs("Love sick");
+        Songs Bad_Habbits = new Songs("Bad Habbits");
+        Songs Beautiful = new Songs("Beautiful");
+        Songs Halo= new Songs("Halo");
+        Songs Clash= new Songs("Clash");
+        Songs It_Gets_Better = new Songs("It Gets Better");
+        Songs Heatwaves = new Songs("Heatwaves");
+        Songs Without_You = new Songs("Without You");
+        Songs First_Class = new Songs("First Class");
+        Songs I_Aint_Worried = new Songs("i Ain't Worried");
+        Songs Rapstar = new Songs("Rapstar");
+        Songs Robbery = new Songs("Robbery");
 
         ArrayList<Songs> S = new ArrayList<Songs>();
-        S.add(Love_Sick);
+        S.add(Bad_Habbits);
+        S.add(Beautiful);
+        S.add(Halo);
+        S.add(Clash);
+        S.add(It_Gets_Better);
+        S.add(Heatwaves);
+        S.add(Without_You);
+        S.add(First_Class);
+        S.add(I_Aint_Worried);
+        S.add(Rapstar);
+        S.add(Robbery);
 
         for( Songs Songs : S )
         {

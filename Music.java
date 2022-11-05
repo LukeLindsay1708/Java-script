@@ -71,7 +71,23 @@ public class Music
         {
             Songs.print();
         }
+        System.out.println("there are: " + S.size()); 
+        System.out.println(" listed songs" + S.get(1));
 
+        
+
+        /* 
+         if(int Artists(element.plays) > 0; int Artists(element.plays) < 100000; Arraylist<Artists>)
+         {
+            Void print()
+         }
+            else(int Artists(element.plays) > 0; int Artists(element.plays) > 100000; Arraylist<Artists> )
+            {
+                print()
+            }
+             
+    
+        */
 }
 
 

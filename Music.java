@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
 
+
 public class Music 
 { 
     public static final String CONSOLE_CLEAR = "\033[H\033[2J";
@@ -9,17 +10,17 @@ public class Music
     {
         System.out.println(CONSOLE_CLEAR);
 
-        Artists Ed_Sheeran = new Artists("Bad Habbits", "Ed Sheeran", 863015);
-        Artists Anne_Marrie = new Artists("Beautiful", "Anne Marie", 197191452);
-        Artists Beyonce = new Artists("Halo", "Beyonce", 991888598);
-        Artists Dave = new Artists("Clash", "Dave", 7070513);
-        Artists Sweedish_House_Mafia = new Artists("It Gets Better", "Sweedish House Mafia", 7563930);
-        Artists Glass_Animals = new Artists("Heatwaves", "Glass Animals", 2066913268);
-        Artists The_Kid_Laroi = new Artists("Wihtout You", "The Kid Laroi", 764963054);
-        Artists Jack_Harlow = new Artists("First Class", "Jack Harlow",524921921);
-        Artists One_Republic = new Artists("I Ain't Worries", "One Republic", 422792883 );
-        Artists Polo_G = new Artists("Rapstar", "Polo G", 682281114);
-        Artists Juice_WRLD = new Artists("Robbery", "Juice WRLD",1054434510 );
+        Artists Ed_Sheeran = new Artists("1", "Bad Habbits", "Ed Sheeran", 863015);
+        Artists Anne_Marrie = new Artists("2", "Beautiful", "Anne Marie", 197191452);
+        Artists Beyonce = new Artists("3", "Halo", "Beyonce", 991888598);
+        Artists Dave = new Artists("4", "Clash", "Dave", 7070513);
+        Artists Sweedish_House_Mafia = new Artists("5", "It Gets Better", "Sweedish House Mafia", 7563930);
+        Artists Glass_Animals = new Artists("6", "Heatwaves", "Glass Animals", 2066913268);
+        Artists The_Kid_Laroi = new Artists("7", "Wihtout You", "The Kid Laroi", 764963054);
+        Artists Jack_Harlow = new Artists("8", "First Class", "Jack Harlow",524921921);
+        Artists One_Republic = new Artists("9", "I Ain't Worries", "One Republic", 422792883 );
+        Artists Polo_G = new Artists("10", "Rapstar", "Polo G", 682281114);
+        Artists Juice_WRLD = new Artists("11", "Robbery", "Juice WRLD",1054434510 );
         
 
         ArrayList<Artists> artists = new ArrayList<Artists>();
@@ -36,6 +37,7 @@ public class Music
         artists.add(Juice_WRLD);
 
         artists.remove(Dave);
+        artists.remove(Beyonce);
         
         for(Artists Artists: artists)
         {
@@ -75,13 +77,13 @@ public class Music
         System.out.println(" listed songs" + S.get(1));
 
         
-
         /* 
-         if(int Artists(element.plays) > 0; int Artists(element.plays) < 100000; Arraylist<Artists>)
+        // how i think it works
+         if(int Artists(element.plays) > 0; int Artists(element.plays) < 100000; in Arraylist<Artists>)
          {
             Void print()
          }
-            else(int Artists(element.plays) > 0; int Artists(element.plays) > 100000; Arraylist<Artists> )
+            else(int Artists(element.plays) > 0; int Artists(element.plays) >= 100000; in Arraylist<Artists> )
             {
                 print()
             }
